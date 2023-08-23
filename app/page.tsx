@@ -9,6 +9,8 @@ import getListings, {
   IListingsParams
 } from "@/app/actions/getListings";
 
+export const dynamic = 'force-dynamic' 
+
 interface HomeProps {
   searchParams: IListingsParams
 };
